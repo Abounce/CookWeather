@@ -161,7 +161,7 @@ public class ChooseAreaFragemnt extends Fragment {
         }else {
             int provinceCode = selectedProvince.getProvinceCode();
             int cityCode = selectedCity.getCityCode();
-            String url=Constants.baseProvince+provinceCode+cityCode;
+            String url=Constants.baseProvince+provinceCode+"/"+cityCode;
             queryFromService(url,"county");
         }
     }
