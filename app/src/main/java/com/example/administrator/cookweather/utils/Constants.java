@@ -6,7 +6,7 @@ package com.example.administrator.cookweather.utils;
 
 public class Constants {
     //省份列表
-    public static final String baseProvince="http://guolin.tech/api/china";
+    public static final String baseProvince="http://guolin.tech/api/china/";
     //和风天气的key
     public static final String API_KEY="854043d5ba7f4e16a16f353f70bd2f78";
 
