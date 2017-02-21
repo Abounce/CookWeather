@@ -81,7 +81,7 @@ public class ParseJson {
                 for (int i = 0; i <allcounty.length() ; i++) {
                     JSONObject objectCounty = allcounty.getJSONObject(i);
                     County county=new County();
-                    county.setWeatherCode(objectCounty.getInt("weather_id"));
+                    county.setWeatherCode(objectCounty.getString("weather_id"));
                     county.setCountyName(objectCounty.getString("name"));
                     county.setCityId(cityid);
                     county.save();
