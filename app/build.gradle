@@ -35,4 +35,5 @@ dependencies {
     apt 'com.jakewharton:butterknife-compiler:8.4.0'
     //添加这句
     compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.android.support:design:25.1.1'
 }

@@ -7,7 +7,7 @@ package com.example.administrator.cookweather.bean;
 public class AQI {
     public AQICity city;
 
-    private class AQICity {
+    public class AQICity {
         public String aqi;
         public String pm25;
     }

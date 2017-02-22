@@ -21,6 +21,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="E:\androidUtils\CookWeather\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="E:\androidUtils\CookWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.1_527df1269924d8c0e49cb1ed0531944c9792e5b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
         jumboMode="true"
         optimize="true"
@@ -57,21 +66,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\androidUtils\CookWeather\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="26562f90ba6c69698a93af1c837766d3cbe140b7">
-        <dex dex="E:\androidUtils\CookWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b5ae31c8ab5ef098c248e987ccc3098c5f2ce265\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\androidsdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
         <dex dex="E:\androidUtils\CookWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_3eae9533fd47cb063e1c424840926b21fcabd8ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\androidUtils\CookWeather\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0978dbf81a9fb3900e4069a32b2a0bb300c3fd71">
+        <dex dex="E:\androidUtils\CookWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b5ae31c8ab5ef098c248e987ccc3098c5f2ce265\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -111,6 +120,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="E:\androidUtils\CookWeather\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="E:\androidUtils\CookWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.1_31816468b14cf6d31affcdd35b3c260ca88a1582\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\androidUtils\CookWeather\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="E:\androidUtils\CookWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.1_2b5e01f99c50788e689684b545eeefe76993d5af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\androidUtils\CookWeather\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -147,6 +174,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="E:\androidUtils\CookWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.0_eca52502deb48db964b5e6d39d16c5eaa7bb0998\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.1\19047bdb6a4fc00a44124f64ca98e88fc204e7e3\okhttp-3.3.1.jar"
         jumboMode="true"
         optimize="true"
@@ -160,7 +196,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="a74de0dc81efaf78cf654005489782fa90d47f0d">
+        sha1="8679912fb3a315fbd4ae32a6308257e2a0c23dbb">
         <dex dex="E:\androidUtils\CookWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3845f166438b705ca5a57f14f39c6805447d4c2b\classes.dex" />
     </item>
     <item

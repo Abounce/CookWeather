@@ -2,9 +2,11 @@ package com.example.administrator.cookweather.utils;
 
 import android.text.TextUtils;
 
+import com.example.administrator.cookweather.bean.Weather;
 import com.example.administrator.cookweather.db_model.City;
 import com.example.administrator.cookweather.db_model.County;
 import com.example.administrator.cookweather.db_model.Province;
+import com.google.gson.Gson;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -95,6 +97,19 @@ public class ParseJson {
 
         return false;
 
+    }
+
+    public static Weather HandleWeatherResponse(String response){
+        try {
+            JSONObject jsonObject = new JSONObject(response);
+            JSONArray jsonArray = jsonObject.getJSONArray("HeWeather");
+            String weatherContent = jsonArray.getJSONObject(0).toString();
+            return new Gson().fromJson(weatherContent,Weather.class);
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
 }

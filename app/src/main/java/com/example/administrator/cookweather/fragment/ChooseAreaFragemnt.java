@@ -1,6 +1,7 @@
 package com.example.administrator.cookweather.fragment;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -15,6 +16,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.administrator.cookweather.R;
+import com.example.administrator.cookweather.activity.MainActivity;
+import com.example.administrator.cookweather.activity.WeatherActivity;
 import com.example.administrator.cookweather.db_model.City;
 import com.example.administrator.cookweather.db_model.County;
 import com.example.administrator.cookweather.db_model.Province;
@@ -85,6 +88,21 @@ public class ChooseAreaFragemnt extends Fragment {
                 }else if (current_level==LEVEL_CITY){
                     selectedCity=cityList.get(position);
                     queryCounty();
+                }else if (current_level==LEVEL_COUNTY){
+                    String weatherCode = countyList.get(position).getWeatherCode();
+                    if (getActivity() instanceof MainActivity){
+                    Intent intent=new Intent(getActivity(), WeatherActivity.class);
+                    intent.putExtra("weather_id",weatherCode);
+                    startActivity(intent);
+                    getActivity().finish();
+
+                    }else if (getActivity() instanceof  WeatherActivity){
+                       WeatherActivity activity= (WeatherActivity) getActivity();
+                        activity.drawerLayout.closeDrawers();
+                        activity.swipeRefresh.setRefreshing(true);
+                        activity.requestWeather(weatherCode);
+                    }
+
                 }
             }
         });
