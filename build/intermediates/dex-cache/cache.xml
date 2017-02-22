@@ -79,7 +79,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0978dbf81a9fb3900e4069a32b2a0bb300c3fd71">
+        sha1="e1b355a3bf9381f4eca75b145b5c095efd7751ec">
         <dex dex="E:\androidUtils\CookWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b5ae31c8ab5ef098c248e987ccc3098c5f2ce265\classes.dex" />
     </item>
     <item
@@ -129,21 +129,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\androidUtils\CookWeather\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="E:\androidUtils\CookWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.1_2b5e01f99c50788e689684b545eeefe76993d5af\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\androidUtils\CookWeather\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
         <dex dex="E:\androidUtils\CookWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_be858808bef56cc737c688a10858772cf1ca2cb0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\androidUtils\CookWeather\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="E:\androidUtils\CookWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.1_2b5e01f99c50788e689684b545eeefe76993d5af\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -196,7 +196,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="8679912fb3a315fbd4ae32a6308257e2a0c23dbb">
+        sha1="977e3b30563bac3dcc16ca0ac3cc5651778adf42">
         <dex dex="E:\androidUtils\CookWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3845f166438b705ca5a57f14f39c6805447d4c2b\classes.dex" />
     </item>
     <item

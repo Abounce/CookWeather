@@ -1,5 +1,6 @@
 package com.example.administrator.cookweather.activity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -21,6 +22,7 @@ import com.bumptech.glide.Glide;
 import com.example.administrator.cookweather.R;
 import com.example.administrator.cookweather.bean.Forecast;
 import com.example.administrator.cookweather.bean.Weather;
+import com.example.administrator.cookweather.service.AutoService;
 import com.example.administrator.cookweather.utils.Constants;
 import com.example.administrator.cookweather.utils.HttpUtil;
 import com.example.administrator.cookweather.utils.ParseJson;
@@ -144,6 +146,8 @@ public class WeatherActivity extends AppCompatActivity {
                     SPUtils.put(WeatherActivity.this, "weather_id", response);
                     mWeatherId = weather.basic.weatherId;
                     showWeatherInfo(weather);
+                    Intent intent =new Intent(WeatherActivity.this, AutoService.class);
+                    startService(intent);
                 } else {
                     Toast.makeText(WeatherActivity.this, "获取天气失败", Toast.LENGTH_SHORT).show();
                 }
@@ -156,7 +160,9 @@ public class WeatherActivity extends AppCompatActivity {
 
     //展示数据
     private void showWeatherInfo(Weather weather) {
+
         String cityName = weather.basic.cityName;
+
         String updatetime = weather.basic.update.updateTime.split(" ")[1];
         String degree = weather.now.temperature + "℃";
         String weatherInfo = weather.now.more.info;
@@ -189,6 +195,8 @@ public class WeatherActivity extends AppCompatActivity {
         carWashText.setText(carWash);
         sportText.setText(sport);
         weatherLayout.setVisibility(View.VISIBLE);
+
+
     }
 
 
